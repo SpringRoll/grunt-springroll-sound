@@ -1,8 +1,8 @@
-/*
+/**
  * grunt-sound-manifests
  * 
  *
- * Copyright (c) 2015 Matte Szklarz
+ * Copyright (c) 2015 Cloudkid / Matte Szklarz
  * Licensed under the MIT license.
  */
 'use strict';

@@ -45,7 +45,7 @@ module.exports = function(grunt)
             for (var key in folders)
             {
                 var dest = f.dest + key + '.json';
-                var curr = grunt.file.read(dest);
+                var curr = grunt.file.exists(dest) ? grunt.file.read(dest) : null;
                 if (curr)
                 {
                     var currSoundManifest = JSON.parse(curr).soundManifest;
