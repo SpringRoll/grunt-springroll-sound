@@ -33,5 +33,6 @@ module.exports = function(grunt)
 
     // By default, lint and run all tests.
     grunt.registerTask('default', ['jshint', 'sound-manifests']);
+    grunt.registerTask('test', ['jshint']);
 
 };
