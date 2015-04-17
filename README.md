@@ -1,4 +1,4 @@
-# grunt-sound-manifests [![Build Status](https://travis-ci.org/SpringRoll/grunt-springroll-sound.svg)](https://travis-ci.org/SpringRoll/grunt-springroll-sound) [![Dependency Status](https://david-dm.org/SpringRoll/grunt-springroll-sound.svg)](https://david-dm.org/SpringRoll/grunt-springroll-sound)
+# grunt-springroll-sound [![Build Status](https://travis-ci.org/SpringRoll/grunt-springroll-sound.svg)](https://travis-ci.org/SpringRoll/grunt-springroll-sound) [![Dependency Status](https://david-dm.org/SpringRoll/grunt-springroll-sound.svg)](https://david-dm.org/SpringRoll/grunt-springroll-sound)
 
 Generates a sounds manifest config file for use in a Springroll game/application.
 
