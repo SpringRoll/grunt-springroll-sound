@@ -52,13 +52,13 @@ module.exports = function(grunt)
                     for (var i = 0, len = currSoundManifest.length; i < len; i++)
                     {
                         // test for object
-                        if (typeof currSoundManifest[i] == 'object')
+                        if (typeof currSoundManifest[i] === 'object')
                         {
                             console.log(currSoundManifest[i]);
                             var src = currSoundManifest[i].src ?
                                 currSoundManifest[i].src :
                                 currSoundManifest[i].id;
-                            for (var j = 0, len = folders[key].length; j < len; j++)
+                            for (var j = 0, l = folders[key].length; j < l; j++)
                             {
                                 var file = folders[key][j];
                                 if (file === src)
@@ -74,7 +74,7 @@ module.exports = function(grunt)
                     context: key,
                     path: 'assets/sound/' + key + '/',
                     soundManifest: folders[key]
-                }
+                };
                 grunt.file.write(dest, JSON.stringify(output, null, '\t'));
                 grunt.log.writeln('File \"' + dest + '\" created.');
             }
